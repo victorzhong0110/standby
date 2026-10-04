@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>赛前站队核对</title>
+<meta name="description" content="把开赛前的支持变成一条改不了、查得到的记录。评论里贴一行，赛后可清算；发言权重只由本场所属游戏的成分决定。">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0e1116">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="赛前站队核对">
+<meta property="og:description" content="赛前签下的支持，赛后查得到。">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230e1116'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' stroke='%233fb950' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<a class="skip" href="#view">跳到主内容</a>
+
+<header class="topbar" id="nav"></header>
+
+<main id="view" class="wrap" aria-live="polite"></main>
+
+<footer class="footer">
+  <p>
+    本站是静态站点，私钥不离开你的设备。账本是一条公开哈希链——
+    任何人都能下载后自行校验。
+  </p>
+  <p class="muted small">
+    <a href="#/how">原理与边界</a> ·
+    本站不证明签名背后是真人，也不替你判断谁在说实话。
+  </p>
+</footer>
+
+<noscript>
+  <div class="wrap">
+    <div class="banner banner-warn">
+      本站需要 JavaScript 才能在本地生成密钥并验证签名。
+      验证逻辑是公开的，你也可以下载账本后用任意工具离线复算。
+    </div>
+  </div>
+</noscript>
+
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>

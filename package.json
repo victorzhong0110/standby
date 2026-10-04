@@ -1,0 +1,17 @@
+{
+  "name": "esports-fan-support-verification",
+  "version": "0.1.0",
+  "private": true,
+  "description": "赛前站队不可伪造 + 赛后可清算 + 发言按本场游戏成分加权",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "ledger": "node tools/make-public-ledger.mjs",
+    "serve": "python3 -m http.server 8899 --directory dist",
+    "test": "node --test test/*.test.mjs",
+    "check": "node tools/build.mjs && node --test test/core.test.mjs",
+    "publish": "node tools/publish.mjs"
+  }
+}

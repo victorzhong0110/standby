@@ -1,0 +1,19 @@
+{
+  "name": "赛前站队核对",
+  "short_name": "站队核对",
+  "description": "把开赛前的支持变成一条改不了、查得到的记录，赛后可清算。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0b0e13",
+  "theme_color": "#0e1116",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

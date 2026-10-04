@@ -1,0 +1,484 @@
+{
+  "format": "fanverify-ledger-bundle/v2",
+  "note": "fanverify public ledger v2 — seeded demo records",
+  "exportedAt": "2026-10-04T17:46:16.573Z",
+  "recordCount": 19,
+  "records": [
+    {
+      "seq": 0,
+      "type": "binding",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1789494376573,
+        "counter": 1,
+        "stamp": "anc_39cc95ac62f15f5ba7a99fba"
+      },
+      "prevHash": "GENESIS",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_821eb8811b06b4a64fded311ef5972bf",
+        "platform": "weibo",
+        "handle": "ts_fan_01",
+        "issuedAtMs": 1791135976579,
+        "challenge": "fanverify 账号绑定 v2\n身份: fv2_821eb8811b06b4a64fded311ef5972bf\n平台: weibo\n账号: ts_fan_01\n签发: 1791135976579\n\n到本服务的 /bind 页面粘贴本段，核对通过后这条绑定才生效。",
+        "signature": "srVpFjkvw4iaKvXMqsKQ3x2LRU7sWlju0aNllWRCoYU_sZNz82N-J_uXjZY1UgiPdfafHeAryzMYEAURJi-ZAQ",
+        "publicKey": "yURVry_wdmcTFX3gHDSly3iZ3mIjoVrw2mhOpmkOzDQ"
+      },
+      "hash": "rec_51b31cadb764ac5151b11ca6fde653adcb349612bee8fa2b530e5e90be17f154"
+    },
+    {
+      "seq": 1,
+      "type": "binding",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1789494376573,
+        "counter": 2,
+        "stamp": "anc_d7ed3433cfb520fe669d7a73"
+      },
+      "prevHash": "rec_51b31cadb764ac5151b11ca6fde653adcb349612bee8fa2b530e5e90be17f154",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_821eb8811b06b4a64fded311ef5972bf",
+        "platform": "bilibili",
+        "handle": "tsfan01",
+        "issuedAtMs": 1791135976579,
+        "challenge": "fanverify 账号绑定 v2\n身份: fv2_821eb8811b06b4a64fded311ef5972bf\n平台: bilibili\n账号: tsfan01\n签发: 1791135976579\n\n到本服务的 /bind 页面粘贴本段，核对通过后这条绑定才生效。",
+        "signature": "U0tYzkh6xnXQWZAlFhTT8SHOxdhToFYL-j9b5qSd9YDzCRO0eBA6blvIcV8hbh42E7c0HTIgnE17QCqL8Mh9CA",
+        "publicKey": "yURVry_wdmcTFX3gHDSly3iZ3mIjoVrw2mhOpmkOzDQ"
+      },
+      "hash": "rec_75ddf0c8dba189a3b3d793fbd5ceffb06b355041930e2a0dd9502279ce2376c3"
+    },
+    {
+      "seq": 2,
+      "type": "rank-snapshot",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1789926376573,
+        "counter": 3,
+        "stamp": "anc_7981b44212247f8116ecf86f"
+      },
+      "prevHash": "rec_75ddf0c8dba189a3b3d793fbd5ceffb06b355041930e2a0dd9502279ce2376c3",
+      "fields": {
+        "version": "v2",
+        "snapshotId": "snap_2aa8bb2fdbb828c26207",
+        "fingerprint": "fv2_821eb8811b06b4a64fded311ef5972bf",
+        "gameId": "league-of-legends",
+        "gameAccount": "riot-7788",
+        "tier": "璀璨钻石",
+        "queue": "单双排",
+        "provider": "Riot League Account API",
+        "provenance": "official",
+        "capturedAtMs": 1789926376573,
+        "signature": "zPFCUPGMqAGPFE2kPXc-3PyFymuAadwp3H-4zqwWzupNohaw4FCynM3L3DwX8PHabKbxSxD9pvuX1QIeVUvGDQ",
+        "publicKey": "yURVry_wdmcTFX3gHDSly3iZ3mIjoVrw2mhOpmkOzDQ",
+        "anchoredAtMs": 1789926376573
+      },
+      "hash": "rec_15634901f81661783b8ee1653270639238caad27c8b60f99b1a1bb8e668eb741"
+    },
+    {
+      "seq": 3,
+      "type": "stance-commitment",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1790790376573,
+        "counter": 4,
+        "stamp": "anc_711acd6b2149dee23aab8390"
+      },
+      "prevHash": "rec_15634901f81661783b8ee1653270639238caad27c8b60f99b1a1bb8e668eb741",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_821eb8811b06b4a64fded311ef5972bf",
+        "matchId": "lck-2026-s10-final",
+        "gameId": "league-of-legends",
+        "team": "T1",
+        "boundPlatforms": [],
+        "mode": "plain",
+        "nonce": "900e87b08238d6618fd6fb8b",
+        "committedAtMs": 1791135976579,
+        "signature": "A8yMAwpi0M1LKKo87tKz28IB1rsRCBCxENY7guVig0cDVkSIIZeLsJOhxjhMKhNIY0H4TBTkWY1t2HWXxLZ7AQ",
+        "receiptId": "0xe594c5d2cdd59cba…5d19",
+        "publicKey": "yURVry_wdmcTFX3gHDSly3iZ3mIjoVrw2mhOpmkOzDQ",
+        "anchoredAtMs": 1790790376573
+      },
+      "hash": "rec_32b7265cba70c99b643540a9d85ad7a56765327166f98dc64e2e89d81d1d0862"
+    },
+    {
+      "seq": 4,
+      "type": "binding",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1789580776573,
+        "counter": 5,
+        "stamp": "anc_ba08575f0e65998ab038b48f"
+      },
+      "prevHash": "rec_32b7265cba70c99b643540a9d85ad7a56765327166f98dc64e2e89d81d1d0862",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_3be030fa8cb36a69affba0f8013f8f66",
+        "platform": "weibo",
+        "handle": "koc_fan_9",
+        "issuedAtMs": 1791135976580,
+        "challenge": "fanverify 账号绑定 v2\n身份: fv2_3be030fa8cb36a69affba0f8013f8f66\n平台: weibo\n账号: koc_fan_9\n签发: 1791135976580\n\n到本服务的 /bind 页面粘贴本段，核对通过后这条绑定才生效。",
+        "signature": "xzRuoN2LwUbGRgzbmMX7kOAuILiga4SggKCwsDUmZB3es9dcdGUvKnZnI50qLpke1DsvwIs4a8WHW-s8-3wICA",
+        "publicKey": "JnFPfICV03RPzpXI_S55QPhlBJyhGRSzIWOt0rnYo98"
+      },
+      "hash": "rec_8738f3689f3c7f71bc049fe26feef57480adb400e4e9033c260b3fe3b11fce09"
+    },
+    {
+      "seq": 5,
+      "type": "rank-snapshot",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1790012776573,
+        "counter": 6,
+        "stamp": "anc_3577d89a214e8907d2be6b70"
+      },
+      "prevHash": "rec_8738f3689f3c7f71bc049fe26feef57480adb400e4e9033c260b3fe3b11fce09",
+      "fields": {
+        "version": "v2",
+        "snapshotId": "snap_262afe8fd55ea942d2a7",
+        "fingerprint": "fv2_3be030fa8cb36a69affba0f8013f8f66",
+        "gameId": "honor-of-kings",
+        "gameAccount": "ow#998877",
+        "tier": "最强王者",
+        "queue": null,
+        "provider": "self-reported",
+        "provenance": "self",
+        "capturedAtMs": 1790012776573,
+        "signature": "wXtMmZuow5jSQWaqJ8Jdlk55iS4tMJhv4-GCwZ0aG1elCuFD_50LUQqFTQC0nyGGVY43H9kpztI6ocVe4DQrCQ",
+        "publicKey": "JnFPfICV03RPzpXI_S55QPhlBJyhGRSzIWOt0rnYo98",
+        "anchoredAtMs": 1790012776573
+      },
+      "hash": "rec_b5763f22b5943013d8fdb95220c8245de1c6abd45847063272ddb729e141d37f"
+    },
+    {
+      "seq": 6,
+      "type": "rank-snapshot",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1790012776573,
+        "counter": 7,
+        "stamp": "anc_b8186d1a0bc31e6d746601f6"
+      },
+      "prevHash": "rec_b5763f22b5943013d8fdb95220c8245de1c6abd45847063272ddb729e141d37f",
+      "fields": {
+        "version": "v2",
+        "snapshotId": "snap_1ace00c899d15874121f",
+        "fingerprint": "fv2_3be030fa8cb36a69affba0f8013f8f66",
+        "gameId": "league-of-legends",
+        "gameAccount": "riot-1234",
+        "tier": "不屈白银",
+        "queue": "单双排",
+        "provider": "self-reported",
+        "provenance": "self",
+        "capturedAtMs": 1790012776573,
+        "signature": "QH3vTngSxmIlHilNVheweyMwxNC-y0jI34MtFAyHR-NtXd1FPJSksbmlzCKh05wpyDAjszEb5iFzSITH1vKwCw",
+        "publicKey": "JnFPfICV03RPzpXI_S55QPhlBJyhGRSzIWOt0rnYo98",
+        "anchoredAtMs": 1790012776573
+      },
+      "hash": "rec_fa32db526331a2635d418d0fa4bc50a83f1eadc6b540941b17c04e0cab4a53df"
+    },
+    {
+      "seq": 7,
+      "type": "stance-commitment",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1790833576573,
+        "counter": 8,
+        "stamp": "anc_d5b53f9ee7077f1673ffd946"
+      },
+      "prevHash": "rec_fa32db526331a2635d418d0fa4bc50a83f1eadc6b540941b17c04e0cab4a53df",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_3be030fa8cb36a69affba0f8013f8f66",
+        "matchId": "lck-2026-s10-final",
+        "gameId": "league-of-legends",
+        "team": "JDG",
+        "boundPlatforms": [],
+        "mode": "plain",
+        "nonce": "54d2bcd1901bce6abe5871b6",
+        "committedAtMs": 1791135976580,
+        "signature": "bMxWzKk45Gd89giwoOqr_0siuvctIGA06flme-WKij8qVdz8ckPpEsfmBueRZZHYlBzJbMOhOll-sOo8oN_9BQ",
+        "receiptId": "0x50d70865abeadf62…031b",
+        "publicKey": "JnFPfICV03RPzpXI_S55QPhlBJyhGRSzIWOt0rnYo98",
+        "anchoredAtMs": 1790833576573
+      },
+      "hash": "rec_39f256b5dde1023e6a5b565a37c42acef3e4b8dd16b3a333781bedecb9802cc2"
+    },
+    {
+      "seq": 8,
+      "type": "rank-snapshot",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1791049576573,
+        "counter": 9,
+        "stamp": "anc_fc5e07a9ebcc6ceca02a858e"
+      },
+      "prevHash": "rec_39f256b5dde1023e6a5b565a37c42acef3e4b8dd16b3a333781bedecb9802cc2",
+      "fields": {
+        "version": "v2",
+        "snapshotId": "snap_e3ced05a81bd1d9b30ef",
+        "fingerprint": "fv2_3be030fa8cb36a69affba0f8013f8f66",
+        "gameId": "league-of-legends",
+        "gameAccount": "riot-1234",
+        "tier": "宗师",
+        "queue": "单双排",
+        "provider": "self-reported",
+        "provenance": "self",
+        "capturedAtMs": 1791049576573,
+        "signature": "aGn03BrsSYpfBlWZQRa6cMehOHTPmljTj6zVHMqSgGL-TicYZsbOVbCXKsP_XG0wvcGNgL5TUZt15oy58hb_CA",
+        "publicKey": "JnFPfICV03RPzpXI_S55QPhlBJyhGRSzIWOt0rnYo98",
+        "anchoredAtMs": 1791049576573
+      },
+      "hash": "rec_4f0f35988242ab56011c7945b77e4079f747ad37da1eb03faedbe4acfd5657f0"
+    },
+    {
+      "seq": 9,
+      "type": "binding",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1789667176573,
+        "counter": 10,
+        "stamp": "anc_fd67f4ec653f711871fbdab5"
+      },
+      "prevHash": "rec_4f0f35988242ab56011c7945b77e4079f747ad37da1eb03faedbe4acfd5657f0",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_b38c44945fcc4b53d3b201d62b71c102",
+        "platform": "nga",
+        "handle": "nga_user_22",
+        "issuedAtMs": 1791135976580,
+        "challenge": "fanverify 账号绑定 v2\n身份: fv2_b38c44945fcc4b53d3b201d62b71c102\n平台: nga\n账号: nga_user_22\n签发: 1791135976580\n\n到本服务的 /bind 页面粘贴本段，核对通过后这条绑定才生效。",
+        "signature": "I3YBPuxvSPv1VoH_dUAOh3NmS7weC6PIbmqvFPXW_ht-sWOoQoAJzqr-u0OlDmhxBXNPyByMUFQteriN-JNMAg",
+        "publicKey": "m3mYCKxxkscKYjVU71g7YlPOCHbt21MHkrIfFPsxxiE"
+      },
+      "hash": "rec_fb935138e3dcb2c137bb50779ae2fcec4c47fc6b2576ce3da0b0a1a9b95470c7"
+    },
+    {
+      "seq": 10,
+      "type": "stance-commitment",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1791032296573,
+        "counter": 11,
+        "stamp": "anc_8222a4d55c8f70d2d96d60dd"
+      },
+      "prevHash": "rec_fb935138e3dcb2c137bb50779ae2fcec4c47fc6b2576ce3da0b0a1a9b95470c7",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_b38c44945fcc4b53d3b201d62b71c102",
+        "matchId": "vct-cn-2026-final",
+        "gameId": "valorant",
+        "team": "EDG",
+        "boundPlatforms": [],
+        "mode": "plain",
+        "nonce": "bd5294fff5f4143753db9efb",
+        "committedAtMs": 1791135976581,
+        "signature": "_Z0LnQFvn8J8ut4sseL6QW_611N5xxJoExOTpZmRhIZ0jJILrcXuvWwopRCTTAd4Zn42WY5KC1vW6wRTPBuRBQ",
+        "receiptId": "0x322dba06a9e933b5…6863",
+        "publicKey": "m3mYCKxxkscKYjVU71g7YlPOCHbt21MHkrIfFPsxxiE",
+        "anchoredAtMs": 1791032296573
+      },
+      "hash": "rec_5906783d23c1d083d9a89a27ff903d8eac4a59aaac619e46716bc5c19b08a8ca"
+    },
+    {
+      "seq": 11,
+      "type": "stance-commitment",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1791092776573,
+        "counter": 12,
+        "stamp": "anc_0edd2fc25170c960113677e0"
+      },
+      "prevHash": "rec_5906783d23c1d083d9a89a27ff903d8eac4a59aaac619e46716bc5c19b08a8ca",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_b38c44945fcc4b53d3b201d62b71c102",
+        "matchId": "vct-cn-2026-final",
+        "gameId": "valorant",
+        "team": "TE",
+        "boundPlatforms": [],
+        "mode": "plain",
+        "nonce": "75527a35a9a1b535736d1a68",
+        "committedAtMs": 1791135976581,
+        "signature": "9qVqRSyxNqVp-YiLPXnsfeD3HRaOtag34RJrS707RNLR5ZqOvlkcI5hVP9L-HFl2y1jmk28CRv9N1Y9yVMAzDA",
+        "receiptId": "0x10ee6f1336a6d184…fc95",
+        "publicKey": "m3mYCKxxkscKYjVU71g7YlPOCHbt21MHkrIfFPsxxiE",
+        "anchoredAtMs": 1791092776573
+      },
+      "hash": "rec_18a0d16c43b98c8b8e0d0d3031fb84a8915260b73fbd6bc1de17df0634539d66"
+    },
+    {
+      "seq": 12,
+      "type": "stance-commitment",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1791153256573,
+        "counter": 13,
+        "stamp": "anc_a2c9979a4b8ebd40da6f8c5d"
+      },
+      "prevHash": "rec_18a0d16c43b98c8b8e0d0d3031fb84a8915260b73fbd6bc1de17df0634539d66",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_2b57eacb710cbcdba2ec94df07dfa009",
+        "matchId": "vct-cn-2026-final",
+        "gameId": "valorant",
+        "team": "EDG",
+        "boundPlatforms": [],
+        "mode": "plain",
+        "nonce": "dcb895d269101dbe88d6ff49",
+        "committedAtMs": 1791006376573,
+        "signature": "g0WDjJLzNuct4XKayjkpS6P8BBLV_zQiYLC5rvC0uAQW3eHvvj1LZl6wP0gTdd2vqBli6znF9EecYAkNugB3CQ",
+        "receiptId": "0x0c8bb3bfa85ca10a…7118",
+        "publicKey": "IShIG-q6s7iMB887zAR4mDkvO2xuQ06gtDoP3fWQoE4",
+        "anchoredAtMs": 1791153256573
+      },
+      "hash": "rec_997bb1eacce38d941455ef34d2b967b2bb6371011d445aefae94e023e0cb70bf"
+    },
+    {
+      "seq": 13,
+      "type": "binding",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1789753576573,
+        "counter": 14,
+        "stamp": "anc_88ccb3a6a037882f23a96d2e"
+      },
+      "prevHash": "rec_997bb1eacce38d941455ef34d2b967b2bb6371011d445aefae94e023e0cb70bf",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_63ba4a6e70a16d09d4dc4f5501c443d3",
+        "platform": "discord",
+        "handle": "quiet_one",
+        "issuedAtMs": 1791135976581,
+        "challenge": "fanverify 账号绑定 v2\n身份: fv2_63ba4a6e70a16d09d4dc4f5501c443d3\n平台: discord\n账号: quiet_one\n签发: 1791135976581\n\n到本服务的 /bind 页面粘贴本段，核对通过后这条绑定才生效。",
+        "signature": "rceO2Wfy1d__gnoq9hAZ-1ZMES3G2xhXvRv3bB5bVGuk0ehC2LWQsrfRjJtaZv1S_tbiTJpbZHUKQxrdumseCg",
+        "publicKey": "AWf1jdw7XniPnyMojJDgVCsBTBVj5woppqQd2RVbETk"
+      },
+      "hash": "rec_ac96998549a859adad6c6872963573a1a2ba0b07b4f6b79dda0df0c678cc3ef3"
+    },
+    {
+      "seq": 14,
+      "type": "stance-commitment",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1790963176573,
+        "counter": 15,
+        "stamp": "anc_2be1c6d98127fd50c37cd3f7"
+      },
+      "prevHash": "rec_ac96998549a859adad6c6872963573a1a2ba0b07b4f6b79dda0df0c678cc3ef3",
+      "fields": {
+        "version": "v2",
+        "fingerprint": "fv2_63ba4a6e70a16d09d4dc4f5501c443d3",
+        "matchId": "lck-2026-s10-final",
+        "gameId": "league-of-legends",
+        "team": "T1",
+        "boundPlatforms": [],
+        "mode": "plain",
+        "nonce": "e4e0863a3a537db37c914ed2",
+        "committedAtMs": 1791135976581,
+        "signature": "BeF1iynA0IEUDwK7ZZRhMxxqvClwtz-EtVq3wSyFdtJR3_EOcwirshRzauGx7sNZ6va5LSBBqAlEGADQD8-uDA",
+        "receiptId": "0x2fe2fefca10ae1d0…bb69",
+        "publicKey": "AWf1jdw7XniPnyMojJDgVCsBTBVj5woppqQd2RVbETk",
+        "anchoredAtMs": 1790963176573
+      },
+      "hash": "rec_dbccc55cca113834652c5178c045cdfef99b87f1fe7b3999d9cb8d2007e10519"
+    },
+    {
+      "seq": 15,
+      "type": "match-seal",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1790885416573,
+        "counter": 16,
+        "stamp": "anc_74a2e4057d08640af174009d"
+      },
+      "prevHash": "rec_dbccc55cca113834652c5178c045cdfef99b87f1fe7b3999d9cb8d2007e10519",
+      "fields": {
+        "version": "v2",
+        "matchId": "lck-2026-s10-final",
+        "gameId": "league-of-legends",
+        "teams": [
+          "T1",
+          "JDG"
+        ],
+        "kickoffAt": "2026-10-01T17:46:16.573Z",
+        "kickoffMs": 1790876776573,
+        "sealedAtMs": 1790876776573
+      },
+      "hash": "rec_d0b3e18fbe7b46aa4b96cb0b2cac54a55e9b19f3fe679d7e2c4d2a5ebdde8819"
+    },
+    {
+      "seq": 16,
+      "type": "match-seal",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1791058216573,
+        "counter": 17,
+        "stamp": "anc_2f5332080f2c03ee74f27090"
+      },
+      "prevHash": "rec_d0b3e18fbe7b46aa4b96cb0b2cac54a55e9b19f3fe679d7e2c4d2a5ebdde8819",
+      "fields": {
+        "version": "v2",
+        "matchId": "vct-cn-2026-final",
+        "gameId": "valorant",
+        "teams": [
+          "EDG",
+          "TE"
+        ],
+        "kickoffAt": "2026-10-03T17:46:16.573Z",
+        "kickoffMs": 1791049576573,
+        "sealedAtMs": 1791049576573
+      },
+      "hash": "rec_52b01f9e792f432bb28a0c3e75fe1f7ec67984956e27f78deeeda0f3c9d5ff77"
+    },
+    {
+      "seq": 17,
+      "type": "match-seal",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1791049576573,
+        "counter": 18,
+        "stamp": "anc_81fe08d1873d18cd89046a90"
+      },
+      "prevHash": "rec_52b01f9e792f432bb28a0c3e75fe1f7ec67984956e27f78deeeda0f3c9d5ff77",
+      "fields": {
+        "version": "v2",
+        "matchId": "lck-2026-s11-week1",
+        "gameId": "league-of-legends",
+        "teams": [
+          "BLG",
+          "WBG"
+        ],
+        "kickoffAt": "2026-10-10T17:46:16.573Z",
+        "kickoffMs": 1791654376573,
+        "sealedAtMs": 1791654376573
+      },
+      "hash": "rec_c7a3e0a44cffcac139ee535102b4641a0fd51288dc63afc726a34f3b4db39920"
+    },
+    {
+      "seq": 18,
+      "type": "match-seal",
+      "timeAnchor": {
+        "kind": "fixed-clock",
+        "unixMs": 1791049576573,
+        "counter": 19,
+        "stamp": "anc_e71826c71a598f91c871370a"
+      },
+      "prevHash": "rec_c7a3e0a44cffcac139ee535102b4641a0fd51288dc63afc726a34f3b4db39920",
+      "fields": {
+        "version": "v2",
+        "matchId": "vct-cn-2026-week1",
+        "gameId": "valorant",
+        "teams": [
+          "AG",
+          "FPX"
+        ],
+        "kickoffAt": "2026-10-11T17:46:16.573Z",
+        "kickoffMs": 1791740776573,
+        "sealedAtMs": 1791740776573
+      },
+      "hash": "rec_5ec46faf340e2be3188279a0fb8036f8e4be1ba8fb417ecc73b962266d1a4629"
+    }
+  ]
+}
